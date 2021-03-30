@@ -4,9 +4,33 @@
     box-sizing: border-box;
 }
 
+body {
+    background: gray;
+}
+
+section#main{
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    background-color: white;
+    border: 20px solid white;
+    margin: auto;
+}
+
+section h5 {
+    margin-bottom: 6%;
+}
+
 input {
     border: none;
     border-bottom: 1px solid black;
+    padding: auto;
+    margin: 5%;
+}
+
+div.interaction {
+    display: flex;
+    flex-direction: row;
 }
 
 input::-webkit-input-placeholder {
@@ -19,8 +43,12 @@ input:hover::-webkit-input-placeholder {
     cursor: text;
 }
 
-h1 h4 p li{
+h1, h4, p, li{
     color: white;
+}
+
+h5 {
+    color: black;
 }
 
 h4 {
