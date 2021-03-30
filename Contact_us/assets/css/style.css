@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input::-webkit-input-placeholder {
+    opacity: 1;
+    color: black;
+}
+
+input:hover::-webkit-input-placeholder {
+    opacity: .6;
+    cursor: text;
+}
+
 h1 h4 p li{
     color: white;
 }
