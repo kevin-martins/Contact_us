@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 h4 p li{
+    color: white;
+}
+
+h4 {
+    opacity: .8;
+}
+
+li {
+    opacity: .6;
+}
+
+li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
